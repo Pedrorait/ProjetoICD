@@ -15,18 +15,18 @@ The database is an adaptation of : https://www.kaggle.com/datasets/jacksoncrow/s
 and can be found at : https://drive.google.com/drive/folders/1cp_DhFOfwioHjzSHrHjAWXfpdRx1aJQy?usp=sharing
 
 ##### Database Structure
-The database we use can be located in the directory "data/stocks" and it has 4 csv files, each one with the following columns:<br>
-Date,Open,High,Low,Close,Adj Close,Volume.<br>
+The database we use can be located in the directory "data/stocks" and it has 4 csv files, each one with the following columns:
+Date,Open,High,Low,Close,Adj Close,Volume.
 Which are data about the stocks of each of the referred companies.
 
 #### The code
-The last version provides an executable "main.exe", an terminal program who make the follow steps:<br>
-1 iteration:<br>
-Select the data for a company.<br>
-2 iteration:<br>
-Select the column to be read from a csv.<br>
-3 iteration:<br>
-Select the information the investor wants extracted.<br>
+The last version provides an executable "main.exe", an terminal program who make the follow steps:
+1 iteration:
+Select the data for a company.
+2 iteration:
+Select the column to be read from a csv.
+3 iteration:
+Select the information the investor wants extracted.
 
 ##### Market Struct
 ```
@@ -39,9 +39,9 @@ This struct receives the data from database, in this case we are using an CSV as
 
 #### How to use the program?
 
-1- The program will ask for the path of Data. Enter with "Data/Stocks" to openning all options of csv files to read.<br>
-2- The program will ask which csv file you want to analyse. Enter the file name with ".csv" at the end of it.<br>
-3- The program will ask how much rows you want to see. Enter the desired number of rows.<br>
+1- The program will ask for the path of Data. Enter with "Data/Stocks" to openning all options of csv files to read.
+2- The program will ask which csv file you want to analyse. Enter the file name with ".csv" at the end of it.
+3- The program will ask how much rows you want to see. Enter the desired number of rows.
 4- The program will show up the values of: open, high, low, close, adjclose and volume of every date of the csv file.
 
 ##### How to use the functions of the program?
